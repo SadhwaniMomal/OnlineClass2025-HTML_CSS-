@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2025-03-29</title>
+    <!-- Internal Type CSS -->
+    <style>
+      table,
+      th,
+      td {
+        border: 2px solid black;
+        padding: 3px;
+      }
+
+      th {
+        color: red;
+      }
+
+      /* id => #tRow1 */
+      #tRow1 {
+        background-color: antiquewhite;
+      }
+
+      /* class => .sNo */
+
+      .sNo {
+        color: green;
+      }
+
+      .tdRow {
+        background-color: lawngreen;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- HTML Table -->
+    <table>
+      <!-- tr => table row -->
+      <tr id="tRow1">
+        <!-- th => table Heading -->
+        <th colspan="2">S#</th>
+        <th colspan="3">Name</th>
+        <th>Email</th>
+        <th>Subject Name</th>
+      </tr>
+
+      <!-- Data 1  -->
+      <tr class="tdRow">
+        <!-- td = > Table data -->
+        <td class="sNo">1</td>
+        <td colspan="3">Moomal</td>
+        <td>sadhwanimoomal@gmail.com</td>
+        <td>HTML & CSS</td>
+      </tr>
+
+      <!-- Data - 2 -->
+      <tr class="tdRow">
+        <td class="sNo">2</td>
+        <td colspan="3">Sana</td>
+        <td>sana@gmail.com</td>
+        <td>PHP</td>
+      </tr>
+
+      <!-- Data - 3 -->
+      <tr class="tdRow">
+        <td class="sNo">3</td>
+        <td colspan="3">Awais</td>
+        <td>Awais@gmail.com</td>
+        <td>Web Design</td>
+      </tr>
+    </table>
+  </body>
+</html>

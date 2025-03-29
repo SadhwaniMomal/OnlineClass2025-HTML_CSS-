@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+      input {
+        margin: 5px 5px;
+      }
+      span {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <p>heelo <span>World</span></p>
+    <h1>HTML Form</h1>
+    <hr />
+    <form action="#" method="post">
+      <!-- Name Field -->
+      <div>
+        <label for="name">Name : </label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter Your Name"
+          required
+        />
+      </div>
+
+      <!-- Email Field -->
+      <div>
+        <label for="email">Email : </label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter Your Email Address"
+          required
+        />
+      </div>
+
+      <!-- Password Field -->
+      <div>
+        <label for="pass">Password : </label>
+        <input
+          type="password"
+          name="pass"
+          id="pass"
+          placeholder="Enter your Password"
+          required
+        />
+      </div>
+
+      <!-- Gender Field -->
+      <div>
+        <label>Gender : </label>
+        <input type="radio" name="gender" id="Male" required />Male
+        <input type="radio" name="gender" id="Female" required />Female
+      </div>
+
+      <!-- Check box Field -->
+      <div>
+        <label for="pass">Hobbies : </label>
+        <input type="Checkbox" />Circket <input type="Checkbox" />Sport
+        <input type="Checkbox" />Cooking
+      </div>
+
+      <!-- Textarea Field -->
+      <div>
+        <textarea
+          cols="20"
+          rows="10"
+          placeholder="Enter your Message"
+        ></textarea>
+      </div>
+
+      <!-- submit Field -->
+      <div>
+        <input type="submit" value="Submit Form" />
+      </div>
+    </form>
+  </body>
+</html>

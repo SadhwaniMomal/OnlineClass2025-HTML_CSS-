@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgb(247, 242, 242);
+  border: 3px solid red;
+}
+
+.row {
+  padding: 5%;
+  border: 3px solid green;
+  /* ------ FLEX DIRECTION ------------- */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  /* justify-content: space-evenly; */
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.child-1,
+.child-2,
+.child-3 {
+  padding: 5%;
+  border: 3px solid white;
+  background-color: cadetblue;
+  width: 20%;
+}
+.child-4 {
+  background-color: brown !important;
+}
